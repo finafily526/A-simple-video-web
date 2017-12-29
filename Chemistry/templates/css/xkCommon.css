@@ -1,0 +1,57 @@
+/*xkCommon特效通用css样式   
+该文件已用xkCommon.js中的方法引用到页面中， 
+不需要再次引用
+*/
+* html, * html body{background-image:url(about:blank);background-attachment:fixed;}
+/*alert弹出层*/
+.msgbox_layer, .msgbox_layer .gtl_ico_succ, .msgbox_layer .gtl_ico_fail, .msgbox_layer .gtl_ico_hits, .msgbox_layer .gtl_ico_clear, .msgbox_layer .gtl_end {color: #333;display: inline-block;font-size: 16px;height: 54px;line-height: 54px;}
+.msgbox_layer_wrap {left: 0;position: fixed;text-align: center;width:100%;z-index:65533;display:none; top:50%; margin-top:-27px;}
+.msgbox_layer {background:url(/images/unlogin.png) 40px center #fff no-repeat;  font-family: "Microsoft Yahei"; margin: 0 auto;padding: 0 35px 0 50px;position: relative; border:1px solid #34a150;}
+.msgbox_layer .gtl_ico_succ {background-position: -6px 0;left: -45px;position: absolute;top: 0;width: 45px;}
+.msgbox_layer .gtl_end {background-position: 0 0;position: absolute;right: -6px;top: 0;width: 6px;}
+.msgbox_layer .gtl_ico_fail {background-position: -6px -108px;left: -45px;position: absolute;top: 0;width: 45px;}
+.msgbox_layer .gtl_ico_hits {background-position: -6px -54px;left: -45px;position: absolute;top: 0;width: 45px;}
+.msgbox_layer .gtl_ico_clear {background-position: -6px 0;left: -5px;position: absolute;top: 0;width: 5px;}
+.msgbox_layer img {float: left;margin: 19px 10px 0 5px;}
+
+.shade_div {position:absolute; z-index:20000; background-color:#000000; filter:alpha(opacity=20); -moz-opacity:0.2; opacity:0.2;width:100%;top:0px; left:0px; }
+.xk_dialogRadius {border-radius:6px;-webkit-border-radius:6px; -moz-border-radius: 6px;}
+/*dialog弹出层*/
+/*蓝色样式  background-color:#2A5D8E;*/
+.xk_dialog {position: fixed;_position:absolute;z-index:21000;background:#999;padding:5px;}
+.xk_dialog .xk_title {height:29px;border-bottom:1px solid #0e1a53; background-color:#3778BC; text-align:right; line-height:29px;color:#fff; font-size:14px;padding:0 5px;}
+.xk_dialog .xk_title a {text-decoration:none;color:#fff;font-size:14px;}
+.xk_dialog .xk_title a:hover {color:#be1919;}
+.xk_dialog .xk_title span {float:left;font-size:14px;}
+.xk_dialog .xk_content {background-color:#ffffff;}
+.xk_dialog .xk_content .xk_text {padding:5px; margin:0; word-break:break-all;}
+.xk_dialog .input_box {height:28px; overflow:hidden;width:100%; text-align:right;background-color:#e5e5e5;border-top:1px solid #d5d5d5;}
+.xk_dialog .input_box input {margin-right:20px;font-size:14px;height:22px; line-height:20px;width:60px; margin-top:3px;cursor:pointer; }
+.xk_dialog .input_box input.submit {border:1px solid #2A5D8E; background-color:#3778BC; color:#fff;}
+.xk_dialog .input_box input.cancel {border:1px solid #808080; background-color:#f1f1f1; color:#333;}
+/*灰色样式*/
+.xk_dialogW {position: fixed;_position:absolute;z-index:21000; background-color:#e5e5e5;padding:5px 7px 2px 5px;border:1px solid #ccc;}
+.xk_dialogW .xk_title {height:25px;text-align:right; line-height:25px;color:#333; font-size:14px;padding:0 5px;}
+.xk_dialogW .xk_title a {text-decoration:none;color:#333;}
+.xk_dialogW .xk_title a:hover {color:#be1919;}
+.xk_dialogW .xk_title span {float:left;}
+.xk_dialogW .xk_content {background-color:#ffffff;border:1px solid #ccc;}
+.xk_dialogW .xk_content .xk_text {padding:5px; margin:0; word-break:break-all;}
+.xk_dialogW .input_box {height:28px; overflow:hidden;width:100%; text-align:right;background-color:#efefef;border:1px solid #ccc;border-top:none;}
+.xk_dialogW .input_box input {margin-right:20px;font-size:14px;height:22px; line-height:20px;width:60px; margin-top:3px; cursor:pointer; }
+.xk_dialogW .input_box input.submit {border:1px solid #2A5D8E; background-color:#3778BC; color:#fff;}
+.xk_dialogW .input_box input.cancel {border:1px solid #808080; background-color:#f1f1f1; color:#333;}
+
+/*灰色样式*/
+.xk_dialogB {position: fixed;_position:absolute;z-index:21000; background-color:#34a150;padding:5px 7px 2px 5px;}/*历史：d1660a,英语:#090* 生物:#628F2D 政治：#922B12 信息技术：#bd3d09 语文：#029900*/
+.xk_dialogB .xk_title {height:25px;text-align:right; line-height:25px;color:#333; font-size:14px;padding:0 5px; font-size:12px;}
+.xk_dialogB .xk_title a {text-decoration:none;color:#fff;}
+.xk_dialogB .xk_title a:hover {color:#fff;}
+.xk_dialogB .xk_title span {float:left;font-weight:bold;color:#fff; font-size:14px;}
+.xk_dialogB .xk_content {background-color:#ffffff;border:1px solid #ccc;}
+.xk_dialogB .xk_content .xk_text {padding:5px; margin:0; word-break:break-all;}
+
+.msgbox_layer_wrap{ border:none; background:none;}
+
+
+

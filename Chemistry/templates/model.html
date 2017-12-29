@@ -1,0 +1,57 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!--pagecreate-->
+    <meta charset="utf-8" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+    <title>学习部落</title>
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/public.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/portal.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/play.css" />
+    <link rel="stylesheet" href="{{STATIC_URL}}css/Collect.css" />
+    <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/xkCommon.css" />
+</head>
+
+<body>
+    <!--logoArea-->
+    <div class="wrapper logo-area">
+        <img src="{{STATIC_URL}}image/logo1.png" width="250" height="67"/>
+            </div>
+    <div class="clearfix nav">
+        <div class="wrapper">
+            <div class="fl nav_1">
+                <a href="/index" target="_self">化学</a>
+                <a href="/delay" target="_self">生物</a>
+                <a href="/delay" target="_self">政治</a>
+                <a href="/delay" target="_self">历史</a>
+                <a href="/delay" target="_self">地理</a>
+                <a href="/delay" target="_self">综合</a>
+                <a href="/delay" target="_self">信息技术</a>
+                <a href="/delay" target="_self">科学</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="clearfix pos_bk">
+        <div class="wrapper pos_t">
+ 
+</div>
+
+
+		{% block content %}
+        {% endblock %}
+  
+
+
+    
+    
+
+
+   
+</body>
+</html>

@@ -1,0 +1,118 @@
+﻿.layerbox {
+    width: 538px;
+    height: 321px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+/*    left: 50%!important;*/
+    margin-left: -270px;
+    margin-top: -163px;
+    z-index: 20000;
+    border: 2px solid #ffa808;
+    border-radius: 8px;
+    font-family: "Microsoft Yahei";
+}
+
+    .layerbox .t {
+		height: 38px;
+        line-height: 38px;
+        text-align: right;
+        padding: 6px 5px;
+        border-bottom: 1px solid #ffa808;
+        background-color: #ef9c03;
+        border-radius: 6px 6px 0 0;
+        color: #fff;
+        font-size: 16px;
+    }
+
+        .layerbox .t span {
+            float: left;
+            padding-left: 10px;
+        }
+
+        .layerbox .t img {
+            border: 0;
+            height: 14px;
+            width: 14px;
+            cursor: pointer;
+            margin-right: 15px;
+			margin-top:10px;
+        }
+
+    .layerbox table {
+        height: 273px;
+        border-radius: 0 0 8px 8px;
+        overflow: hidden;
+    }
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.layerbox table tr input, .layerbox table tr textarea {
+    border: none;
+    color: #333;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+
+.layerbox table tr {
+    height: 51px;
+}
+
+.popbt, .popbt td {
+    background: #dcf4e2;
+    height: 40px;
+    border-radius: 0 0 8px 8px;
+}
+
+    .popbt, .popbt td {
+        background: #fcf2e0;
+        height: 40px;
+        border-radius: 0 0 8px 8px;
+    }
+
+        .popbt input.btn {
+            font-size: 14px;
+            font-family: "Microsoft Yahei";
+            background: none;
+            border: none;
+            cursor: pointer;
+            margin-left: 245px;
+            color: #1aa23d;
+        }
+
+.layerbox table .btn {
+    height: 27px;
+    line-height: 27px;
+    background-color: #ffa808;
+    color: #fff;
+    padding: 0 15px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.layerbox table tr input.text {
+    width: 416px;
+}
+
+.layerbox table tr textarea {
+    resize: none;
+    width: 420px;
+    height: 60px;
+    border: 1px solid #eee;
+}
